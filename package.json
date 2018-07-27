@@ -1,0 +1,26 @@
+{
+    "name": "qalblang",
+    "displayName": "qalblang",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "qalblang",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "qalb",
+            "aliases": ["qalb", "qalb"],
+            "extensions": [".qalb",".ql",".قلب"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "qalb",
+            "scopeName": "text.html.ql",
+            "path": "./syntaxes/qalb.tmLanguage.json"
+        }]
+    }
+}

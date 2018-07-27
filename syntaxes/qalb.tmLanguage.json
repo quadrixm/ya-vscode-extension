@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "qalb",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.qalb",
+				"match": "\\b(إرجاع|زائف|لااحد|صحيح|و|مثل|أكد|كسر|صنف|استمر|حدد|حذف|آخرلو|آخر|إلا|أخيرا|لأن|من|عالمي|لو|استيراد|في|يساوي|امدا|غيرمحلي|لا|أو|مرر|رفع|إرجاع|حاول|بينما|مع|محصول)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.qalb",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.qalb",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "text.html.ql"
+}
