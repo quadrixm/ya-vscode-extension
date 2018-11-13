@@ -1,9 +1,9 @@
 {
-    "name": "qalblang",
-    "displayName": "qalblang",
+    "name": "yalang",
+    "displayName": "ي",
     "description": "",
     "version": "0.0.1",
-    "publisher": "qalblang",
+    "publisher": "yalang",
     "engines": {
         "vscode": "^1.25.0"
     },
@@ -11,16 +11,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "qalb",
-            "aliases": ["qalb", "qalb"],
-            "extensions": [".qalb",".ql",".قلب"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "qalb",
-            "scopeName": "text.html.ql",
-            "path": "./syntaxes/qalb.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "yalang",
+                "aliases": [
+                    "yalang",
+                    "yalang"
+                ],
+                "extensions": [
+                    ".ي"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "yalang",
+                "scopeName": "text.html.ي",
+                "path": "./syntaxes/yalang.tmLanguage.json"
+            }
+        ]
     }
 }
