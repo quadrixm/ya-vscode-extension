@@ -1,9 +1,9 @@
 {
-    "name": "yalang",
+    "name": "Ya",
     "displayName": "ي",
-    "description": "",
+    "description": "Ya Language Support",
     "version": "0.0.1",
-    "publisher": "yalang",
+    "publisher": "Ya",
     "engines": {
         "vscode": "^1.25.0"
     },
@@ -13,10 +13,10 @@
     "contributes": {
         "languages": [
             {
-                "id": "yalang",
+                "id": "ya",
                 "aliases": [
                     "yalang",
-                    "yalang"
+                    "ي"
                 ],
                 "extensions": [
                     ".ي"
@@ -28,7 +28,7 @@
             {
                 "language": "yalang",
                 "scopeName": "text.html.ي",
-                "path": "./syntaxes/yalang.tmLanguage.json"
+                "path": "./syntaxes/ya.tmLanguage.json"
             }
         ]
     }
