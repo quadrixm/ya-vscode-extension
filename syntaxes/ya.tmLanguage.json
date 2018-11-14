@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "yalang",
+	"name": "ya",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -12,17 +12,17 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.yalang",
-				"match": "\\b(إرجاع|زائف|لااحد|صحيح|و|مثل|أكد|كسر|صنف|استمر|حدد|حذف|آخرلو|آخر|إلا|أخيرا|لأن|من|عالمي|لو|استيراد|في|يساوي|امدا|غيرمحلي|لا|أو|مرر|رفع|إرجع|حاول|بينما|مع|محصول)\\b"
+				"name": "keyword.control.ya",
+				"match": "\\b(صحيح|زائف|لااحد|مثل|أكد|غيرمتزامن|و|ترقب|اكسر|صنف|استمر|وظيفة|حذف|ولو|آخر|إلا|أخيرا|لأن|من|عالمي|لو|استيراد|في|يساوي|امدا|لا|غيرمحلي|أو|مرر|رفع|إرجع|حاول|بينما|مع|محصو|منطقية|عدد|عشري|خيط)\\b"
 			}]
 		},
 		"strings": {
-			"name": "string.quoted.double.yalang",
+			"name": "string.quoted.double.ya",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.yalang",
+					"name": "constant.character.escape.ya",
 					"match": "\\\\."
 				}
 			]
