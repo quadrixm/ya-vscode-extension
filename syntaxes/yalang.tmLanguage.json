@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "qalb",
+	"name": "yalang",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -12,21 +12,21 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.qalb",
-				"match": "\\b(إرجاع|زائف|لااحد|صحيح|و|مثل|أكد|كسر|صنف|استمر|حدد|حذف|آخرلو|آخر|إلا|أخيرا|لأن|من|عالمي|لو|استيراد|في|يساوي|امدا|غيرمحلي|لا|أو|مرر|رفع|إرجاع|حاول|بينما|مع|محصول)\\b"
+				"name": "keyword.control.yalang",
+				"match": "\\b(إرجاع|زائف|لااحد|صحيح|و|مثل|أكد|كسر|صنف|استمر|حدد|حذف|آخرلو|آخر|إلا|أخيرا|لأن|من|عالمي|لو|استيراد|في|يساوي|امدا|غيرمحلي|لا|أو|مرر|رفع|إرجع|حاول|بينما|مع|محصول)\\b"
 			}]
 		},
 		"strings": {
-			"name": "string.quoted.double.qalb",
+			"name": "string.quoted.double.yalang",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.qalb",
+					"name": "constant.character.escape.yalang",
 					"match": "\\\\."
 				}
 			]
 		}
 	},
-	"scopeName": "text.html.ql"
+	"scopeName": "text.html.ي"
 }
