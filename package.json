@@ -1,9 +1,10 @@
 {
-    "name": "Ya",
-    "displayName": "ي",
+    "name": "ya",
+    "displayName": "Ya (ي) Language",
     "description": "Ya Language Support",
     "version": "0.0.1",
     "publisher": "Ya",
+    "keywords": ["ya", "yalang", "ي", "ya language", "yalanguage"],
     "engines": {
         "vscode": "^1.25.0"
     },
