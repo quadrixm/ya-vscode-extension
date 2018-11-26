@@ -32,5 +32,15 @@
                 "path": "./syntaxes/ya.tmLanguage.json"
             }
         ]
-    }
+    },
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "bugs": {
+        "url": "https://github.com/yalang/ya/issues",
+        "email": "quadrixm@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yalang/ya"
+    },
+    "homepage": "https://yalang.org"
 }
